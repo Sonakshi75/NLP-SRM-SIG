@@ -25,6 +25,7 @@
 	<header>
 		<nav class="navbar navbar-expand-lg">
 			<div class="container-fluid" style="padding-top:1.5%; padding-bottom:1.5%;">
+				<img id="logo" src="images/srm logo.png" alt="SRM_LOGO" width="100" height="85">
 				<a class="head" class="navbar-brand disabled" href="#"><em>NLP Vertical</em></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -85,11 +86,12 @@
 				<a class="nav-link" href="#Team">Team</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#Universities">Top Universities</a>
+				<a class="nav-link" href="#Universities"> Universities</a>
 			</li>
 			<li class="nav-item dropdown">
-				<div class="dropdown">
-					<button id=" dropdownbtn">Projects</button>
+				<div class="dropdown" id="project-button">
+					<button id=" dropdownproject" class="btn" style="background-color:  #000B49; color:#fff;">Projects </button>
+					<img src="images/drop-down.png" width="15" height="15">
 					<div class="dropdown-content">
 						<a class="dropdown-item" href="inhouse project.html">Inhouse Projects</a>
 						<a class="dropdown-item" href="consultancy projects.html">Consultancy Projects</a>
@@ -109,12 +111,6 @@
 			<div class="carousel-inner">
 			  <div class="carousel-item active">
 				<img src="images/5.jpeg" class="d-block w-100" alt="1">
-			  </div>
-			  <div class="carousel-item">
-				<img src="images/4.jpeg" class="d-block w-100" alt="2">
-			  </div>
-			  <div class="carousel-item">
-				<img src="images/3.jpeg" class="d-block w-100" alt="3">
 			  </div>
 
 			</div>
@@ -243,7 +239,7 @@
 		</div>
 	</div>
 	<div id="Universities" class="universities">
-		<h2 style="text-align:center;"><strong>Top 10 universities with rich NLP data</strong></h2>
+		<h2 style="text-align:center;"><strong>Universities with rich NLP data sets</strong></h2>
 		<br>
 		<div class="row">
 			<div class="col-lg-3">
@@ -327,4 +323,12 @@
 	</div>
 	<br> <br>
 	<script src="index.js" charset="utf-8"></script>
+	<footer>
+		<center><h2>Contact Us:</h2></center>
+		<p id=contact-info>Contact information:</p>
+        <br>
+		<p id="email">Email ID:</p>
+		
+		<br>
+	</footer>
 </body>
